@@ -1,0 +1,79 @@
+<include name="partial-head" src="./partials/head.html"></include>
+
+<body id="blog">
+  <!-- ======= Home section ======= -->
+  <h1 class="text-lg md:text-3xl xl:text-5xl text-green-300 fixed top-4 right-8 z-10 tracking-normal">[0]Limit</h1>
+  <div class="md:shrink-0">
+    <!-- ======= NavBar ======= -->
+    <section id="home" class="d-flex align-items-center">
+      <nav id="navbar" class="bg-white border-white-200 ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <div class="flex md:order-2">
+            <ul class="text-black-400 sm:self-center text 2xl">
+              <li class="sm:inline-block"><a class="p-3 tracking-widest nav-link nav-link scrollto no-underline hover:no-underline text-pink-500" href="#home">Home</a></li>
+              <li class="sm:inline-block"><a class="p-3 tracking-widest hover:text-black-400 nav-link nav-link scrollto no-underline hover:underline" href="#activities">Activities</a></li>
+              <li class="sm:inline-block"><a class="p-3 tracking-widest hover:text-black-400 nav-link nav-link scrollto no-underline hover:underline" href="#gallery">Gallery</a></li>
+              <li class="sm:inline-block"><a class="p-3 tracking-widest hover:text-black-400 nav-link nav-link scrollto no-underline hover:underline" href="#about">About team</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav><!-- end Navbar -->
+      <div class="filter-green brightness-50">
+        <img class="h-full w-full object-cover lg:h-full lg:w-full relative z-12" src="./assets/images/portada-background.jpg" alt="main image with scaler image">
+        <h1 class="absolute text-5xl text-white opacity-1 top-9 left-1/2 z-11"> My favorite routes </h1>
+      </div>
+    </section><!-- End Home section -->
+  </div>
+  <!-- ======= Section activities ======= -->
+  <main id="main" class="py-6 px-4 mt-5">
+    <section id="activities" class="h-full w-full">
+      <div class="max-w-5xl p-4 mx-auto mt-4 bg-green-200 sm:shadow-md sm:rounded-md sm:bg-pink-100 sm:p-6 md:bg-pink-100 w-full bg-pink shadow rounded">
+
+        <div class="high-specificity ">
+          <div class="nested">
+            <h2 class="text-md mt-4 mb-3 font-semibold text-center sm:text-xl">Sport climbing</h2>
+            <p class="mb-6">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+        <div class="container sm:columns-1 md:columns-2 lg:columns-2 xl:columns-2">
+          <picture>
+            <img class="h-full w-full" src="./assets/images/escalada-rocodromo.jpg" alt="Image team climbing" loading="lazy"></picture>
+          <h4>Lorem Ipsum</h4>
+          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        </div>
+        <div>
+          <h4>Sed ut perspici</h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+        <div>
+          <picture> </picture>
+          <h4>Sed ut perspici</h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+        <div>
+          <picture> </picture>
+          <h4>Sed ut perspici</h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+      </div>
+    </section><!-- End section activities -->
+  </main>
+  <!-- ======= Section image gallery ======= -->
+  <section id="gallery" class="sm:flex-1 md:columns-2 bg-green-100 mt-5 ">
+    <h2 class="text-md mt-6 p-5 font-semibold text-center sm:text-xl">Image gallery</h2>
+    <div class="sm:columns-1 xl:columns-3 w-full ">
+      <picture>
+        <img name="gallery1" class="w-full aspect-square" src="./assets/images/mountain-climbing-1840220_1280.jpg" alt="image of the climber at the top" loading="lazy">
+        <img name="gallery2" class="w-full aspect-square" src="./assets/images/landscape-6692712_1280.jpg" alt="image of the group at night in the camp" loading="lazy">
+        <img name="gallery3" class="w-full aspect-square" src="./assets/images/helping-4661809_1280.jpg" alt="image of climbers joined by hands" loading="lazy">
+        <img name="gallery4" class="w-full aspect-square" src="./assets/images/woman-6012907_1280.jpg" alt="image of Carla on the top of a mountain" loading="lazy">
+        <img name="gallery5" class="w-full aspect-square" src="./assets/images/mountain-2158661_1280.jpg" alt="image of a climber rappelling" loading="lazy" />
+        <img name="gallery6" class="w-full aspect-square" src="./assets/images/rock-climbing-2264698_1280.jpg" alt="image climber jumping a section" loading="lazy">
+      </picture>
+    </div><!-- End image gallery -->
+  </section>
+  <div class="background-cookies active" id="background-cookies"></div>
+  <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  <script type="module" src="./js/lazy.js"></script>
+  <include src="./partials/footer.html"></include>
+</body>

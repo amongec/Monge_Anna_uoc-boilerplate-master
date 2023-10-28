@@ -1,0 +1,35 @@
+@config "./tailwind.site.config.js";
+
+@tailwind base;
+@tailwind components;
+
+@layer base {
+.card--about, .card--activities {
+  background-color: white;
+}
+.text.sm {
+  font-size: 0.8rem;
+  color:black;
+  }
+h4 {
+  font-size: 600;
+  }
+p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  }
+.nested {
+  height: calc(100vh - theme(spacing.12));
+  }
+}
+
+@layer components {
+  .fab {
+  color: black;
+}
+  .fab:hover, fa-o:hover {
+    color: pink;
+  }
+}
+
+@tailwind utilities;
