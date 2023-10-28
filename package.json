@@ -284,7 +284,6 @@
     "string.prototype.trimend": "^1.0.6",
     "string.prototype.trimstart": "^1.0.6",
     "strip-ansi": "^7.1.0",
-    "strip-ansi-cjs": "^6.0.1",
     "strip-bom": "^3.0.0",
     "strip-json-comments": "^2.0.1",
     "supports-color": "^7.2.0",
