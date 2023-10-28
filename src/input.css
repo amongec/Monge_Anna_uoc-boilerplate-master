@@ -7,16 +7,18 @@
 .card--about, .card--activities {
   background-color: white;
 }
-.text.sm {
-  font-size: 0.8rem;
-  color:black;
-  }
 h4 {
-  font-size: 600;
+  font-size: 1.2rem;
+}
+p.text.sm {
+  color:grey;
   }
 p {
-  font-size: 1rem;
   line-height: 1.4rem;
+  margin-top: 1rem;
+  }
+.closing{
+    font-family: 'Dancing Script', cursive;
   }
 .nested {
   height: calc(100vh - theme(spacing.12));

@@ -20,13 +20,12 @@
     "order/order": ["custom-properties", "declarations"],
     "order/properties-alphabetical-order": true,
     "no-duplicate-selectors": true,
-    "color-hex-length": "long",
-    "color-named": "never",
     "property-no-unknown": true,
     "plugin/no-browser-hacks": [true, {
         "browsers": [
             "last 2 versions",
-            "ie >=8"
+            "ie >=8",
+            "safari >= 7"
         ]
     }],
     "max-length": 120,
