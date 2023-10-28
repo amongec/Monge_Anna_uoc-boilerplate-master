@@ -182,7 +182,6 @@
     "mimic-response": "^3.1.0",
     "minimatch": "^3.1.2",
     "minimist": "^1.2.8",
-    "minipass": "^7.0.3",
     "mkdirp-classic": "^0.5.3",
     "msgpackr": "^1.9.7",
     "msgpackr-extract": "^3.0.2",
