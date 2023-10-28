@@ -315,5 +315,12 @@
     "xxhash-wasm": "^0.4.2",
     "yallist": "^4.0.0"
   },
-  "keywords": ["parcel", "tailwind","html", "css", "stylelint", "pec1"]
+  "keywords": [
+    "parcel",
+    "tailwind",
+    "html",
+    "css",
+    "stylelint",
+    "pec1"
+  ]
 }
