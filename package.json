@@ -206,7 +206,6 @@
     "parse-json": "^5.2.0",
     "path-key": "^2.0.1",
     "path-parse": "^1.0.7",
-    "path-scurry": "^1.10.1",
     "path-type": "^4.0.0",
     "picocolors": "^1.0.0",
     "picomatch": "^2.3.1",
