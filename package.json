@@ -123,7 +123,6 @@
     "get-port": "^4.2.0",
     "get-symbol-description": "^1.0.0",
     "github-from-package": "^0.0.0",
-    "glob": "^10.3.3",
     "glob-parent": "^5.1.2",
     "globals": "^13.21.0",
     "globalthis": "^1.0.3",
