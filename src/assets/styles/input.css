@@ -1,4 +1,3 @@
-@layer base {
 .card--about, .card--activities {
   background-color: white;
 }
@@ -7,24 +6,20 @@ h4 {
 }
 p.text.sm {
   color:grey;
-  }
+}
 p {
   line-height: 1.4rem;
   margin-top: 1rem;
-  }
+}
 .closing{
     font-family: 'Dancing Script', cursive;
-  }
+}
 .nested {
   height: calc(100vh - theme(spacing.12));
-  }
 }
-
-@layer components {
-  .fab {
+.fab {
   color: black;
 }
-  .fab:hover, fa-o:hover {
-    color: pink;
-  }
+.fab:hover, fa-o:hover {
+  color: pink;
 }
