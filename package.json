@@ -10,6 +10,8 @@
     "clean": "rimraf dist .cache .cache-loader .parcel-cache",
     "dev": "npm-run-all clean parcel:serve",
     "stylelint": "stylelint src/**/*.scss",
+    "build:css": "postcss src/assets/styles/input.css -o src/assets/styles/main.css",
+    "watch:css": "postcss src/assets/styles/input.css -o src/assets/styles/main.css",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'"
   },
   "web": "dist/index.html",
