@@ -44,7 +44,8 @@
     "postcss-preset-env": "^9.1.1",
     "posthtml-include": "^1.7.4",
     "rimraf": "^5.0.1",
-    "sharp": "0.31.1"
+    "sharp": "0.31.1",
+    "tailwindcss": "^3.3.5"
   },
   "main": "index.js",
   "dependencies": {
@@ -212,6 +213,7 @@
     "pify": "^3.0.0",
     "postcss-attribute-case-insensitive": "^6.0.2",
     "postcss-clamp": "^4.1.0",
+    "postcss-cli": "^10.1.0",
     "postcss-color-functional-notation": "^6.0.0",
     "postcss-color-hex-alpha": "^9.0.2",
     "postcss-color-rebeccapurple": "^9.0.0",
