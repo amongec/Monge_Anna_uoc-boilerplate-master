@@ -4,11 +4,7 @@ module.exports  =  {
     'postcss-import': {},
     'tailwindcss': {},
     'autoprefixer': {},
-    'tailwindcss/nesting': {},
-    'tailwindcss': {},
-    'autoprefixer': {},
-    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
-    require('tailwindcss'),
-    require('autoprefixer'),
+    [require('tailwindcss'),
+    require('autoprefixer')],
   } 
 } ;
