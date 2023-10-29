@@ -1,9 +1,3 @@
-
-/** @type {import('tailwindcss').Config} */
-
-const {tailwindTransform} = require('postcss-lit');
-const plugin = require('tailwindcss/plugin')
-
 module.exports = {
   content: {
     files: ["./src/**/*.{html,js,ts}", "./public/*.html"],
