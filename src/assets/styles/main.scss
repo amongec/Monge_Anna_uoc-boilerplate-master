@@ -9,6 +9,10 @@
 
 @import "variables";
 
+//@tailwind base;
+//@tailwind components;
+
+
 /**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
@@ -24,6 +28,8 @@
  */
 
 //@import "layouts/home";
+
+//@tailwind utilities
 
 /**
  * Do NOT include anything else in this file!
