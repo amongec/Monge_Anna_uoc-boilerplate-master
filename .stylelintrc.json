@@ -1,9 +1,6 @@
 {
   "customSyntax": "postcss-html",
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-recommended-scss",
-  ],
+  "extends": "stylelint-config-recommended-scss",
   "scripts": {
   "build": "npm-run-all clean stylelint parcel:build",
  },
